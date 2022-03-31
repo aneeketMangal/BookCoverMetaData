@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class Out(ABC):
     @abstractmethod
-    def __init__(self):
+    def __init__(self, filePath):
         pass
 
 
@@ -17,5 +17,5 @@ class Out(ABC):
     '''
 
     @abstractmethod
-    def writeEncodingsToFile(self, encodings, filePath):
+    def write(self, encodings):
         pass

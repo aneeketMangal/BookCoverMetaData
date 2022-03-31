@@ -1,0 +1,79 @@
+2022-04-01 00:30:25 INFO     Argument parser initialized.
+2022-04-01 00:30:25 INFO     Initializing App
+2022-04-01 00:30:25 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:30:25 INFO     ExcelOut initialised
+2022-04-01 00:30:25 INFO     main function called
+2022-04-01 00:30:44 INFO     Argument parser initialized.
+2022-04-01 00:30:44 INFO     Initializing App
+2022-04-01 00:30:44 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:30:44 INFO     ExcelOut initialised
+2022-04-01 00:30:44 INFO     main function called
+2022-04-01 00:31:38 INFO     Argument parser initialized.
+2022-04-01 00:31:38 INFO     Initializing App
+2022-04-01 00:31:38 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:31:38 INFO     ExcelOut initialised
+2022-04-01 00:31:38 INFO     main function called
+2022-04-01 00:32:08 INFO     Argument parser initialized.
+2022-04-01 00:32:08 INFO     Initializing App
+2022-04-01 00:32:08 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:32:08 INFO     ExcelOut initialised
+2022-04-01 00:32:08 INFO     main function called
+2022-04-01 00:33:50 INFO     Argument parser initialized.
+2022-04-01 00:33:50 INFO     Initializing App
+2022-04-01 00:33:50 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:33:50 INFO     ExcelOut initialised
+2022-04-01 00:33:50 INFO     main function called
+2022-04-01 00:33:50 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:33:50 INFO     parseFiles called
+2022-04-01 00:34:35 INFO     Argument parser initialized.
+2022-04-01 00:34:35 INFO     Initializing App
+2022-04-01 00:34:35 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:34:35 INFO     ExcelOut initialised
+2022-04-01 00:34:35 INFO     main function called
+2022-04-01 00:34:35 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:34:35 INFO     parseFiles called
+2022-04-01 00:34:59 INFO     Argument parser initialized.
+2022-04-01 00:34:59 INFO     Initializing App
+2022-04-01 00:34:59 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:34:59 INFO     ExcelOut initialised
+2022-04-01 00:34:59 INFO     main function called
+2022-04-01 00:34:59 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:34:59 INFO     parseFiles called
+2022-04-01 00:35:00 INFO     Argument parser initialized.
+2022-04-01 00:35:00 INFO     Initializing App
+2022-04-01 00:35:00 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:35:00 INFO     ExcelOut initialised
+2022-04-01 00:35:00 INFO     main function called
+2022-04-01 00:35:00 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:35:00 INFO     parseFiles called
+2022-04-01 00:35:46 INFO     Argument parser initialized.
+2022-04-01 00:35:46 INFO     Initializing App
+2022-04-01 00:35:46 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\out.xls
+2022-04-01 00:35:46 INFO     ExcelOut initialised
+2022-04-01 00:35:46 INFO     main function called
+2022-04-01 00:35:46 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:35:46 INFO     parseFiles called
+2022-04-01 00:37:47 INFO     Argument parser initialized.
+2022-04-01 00:37:47 INFO     Initializing App
+2022-04-01 00:37:47 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou
+2022-04-01 00:37:47 INFO     ExcelOut initialised
+2022-04-01 00:37:47 INFO     main function called
+2022-04-01 00:37:47 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:37:47 INFO     parseFiles called
+2022-04-01 00:37:58 INFO     Argument parser initialized.
+2022-04-01 00:37:58 INFO     Initializing App
+2022-04-01 00:37:58 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.pdf
+2022-04-01 00:37:58 INFO     ExcelOut initialised
+2022-04-01 00:37:58 INFO     main function called
+2022-04-01 00:37:58 INFO     files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 00:37:58 INFO     parseFiles called
+2022-04-01 00:38:18 INFO     Argument parser initialized.
+2022-04-01 00:38:18 INFO     Initializing App
+2022-04-01 00:38:18 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\a.pdf, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.pdf
+2022-04-01 00:38:18 INFO     ExcelOut initialised
+2022-04-01 00:38:18 INFO     main function called
+2022-04-01 00:38:29 INFO     Argument parser initialized.
+2022-04-01 00:38:29 INFO     Initializing App
+2022-04-01 00:38:29 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\a.jpg, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.pdf
+2022-04-01 00:38:29 INFO     ExcelOut initialised
+2022-04-01 00:38:29 INFO     main function called

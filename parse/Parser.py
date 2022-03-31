@@ -9,7 +9,7 @@ class Parser(ABC):
         pass
 
     @abstractmethod
-    def parseFiles(self, filePath):
+    def parseFiles(self, files):
         pass
 
     
