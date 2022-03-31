@@ -1,6 +1,4 @@
 from out.Out import Out
-
-import xlwt
 from xlwt import Workbook
   
 
@@ -16,8 +14,6 @@ class ExcelOut(Out):
             self.__sheet.write(row, column, cellContent)         
     
 
-    
     def writeEncodingsToFile(self, encodings, filePath):
-        
         for encodingIndex, encoding in enumerate(encodings):
             self.__writeRow(encodingIndex, encoding)
