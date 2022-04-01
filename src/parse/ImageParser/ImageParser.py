@@ -28,10 +28,20 @@ class ImageParser(Parser):
         try:
             text = pytesseract.image_to_string(
                 Image.open(filePath),
-                lang='eng',
-                # config='--psm 10 --oem 3 -c tessedit_char_whitelist=0123456789'
             )
+
+            data = pytesseract.image_to_data(
+                Image.open(filePath),
+            )
+            blocks = pytesseract.image_to_boxes(
+                Image.open(filePath),
+            )
+            logging.info(f"data: {str(data)}")
+            logging.info(f"blocks: {blocks}")
+            
             logging.info(f"File {filePath} has encoding: {text}")
+            # xml = pytesseract.image_to_alto_xml(filePath)
+            # print(xml)
             return text
         except Exception as e:
             logging.error(

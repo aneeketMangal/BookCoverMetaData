@@ -5,10 +5,11 @@ import logging
 import sys
 ArgParser = None
 logging.basicConfig(
-    filename= "logs/log.txt",
+    filename= "logs/logs.log",
     format='%(asctime)s %(levelname)-8s %(message)s',
-    level=logging.INFO,
-    datefmt='%Y-%m-%d %H:%M:%S'
+    level=logging.DEBUG,
+    datefmt='%Y-%m-%d %H:%M:%S',
+    filemode='w'
 )
 
 def initializeArgParser():
