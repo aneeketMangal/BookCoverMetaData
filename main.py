@@ -1,9 +1,9 @@
 
 import argparse
-from app.App import App
-ArgParser = None
+from src.app import App
 import logging
-
+import sys
+ArgParser = None
 logging.basicConfig(
     filename= "logs/log.txt",
     format='%(asctime)s %(levelname)-8s %(message)s',
@@ -50,8 +50,13 @@ def initializeArgParser():
 
 
 if __name__  == "__main__":
+    sys.tracebacklimit = 0
     initializeArgParser()
     args = ArgParser.parse_args()
+    logging.info(f"Arguments parsed: {args}")
+    print("Processing...")
     App = App(args.directory, args.path[0], args.type, args.out[0])
-    App.parseFiles()
+    res = App.getMetaData()
+    if(res == 1):
+        print("Done!, Check the output file.")
 

@@ -1,5 +1,6 @@
-from out.Out import Out
-from xlwt import Workbook
+from src.exception.CannotWriteOutputException import CannotWriteOutputException
+from src.out.Out import Out
+from xlsxwriter import Workbook
 import logging
 
 
@@ -8,8 +9,13 @@ class ExcelOut(Out):
         super().__init__(filePath)
         logging.info("ExcelOut initialised")
         self.__path = filePath
-        self.__workBook = Workbook()
-        self.__sheet = self.__workBook.add_sheet('Metadata')
+        try:
+            self.__workBook = Workbook(filePath)
+        except Exception as e:
+            logging.error(f"Error while creating file: {filePath}, Error was {e}")
+            raise CannotWriteOutputException(e, filePath)
+            
+        self.__sheet = self.__workBook.add_worksheet('Metadata')
         self.__writeRow(0, ['FilePath', 'ISBN', 'Title', 'Author', 'Publisher'])
 
     def __writeRow(self, row, rowContent):
@@ -21,4 +27,4 @@ class ExcelOut(Out):
         for encodingIndex, encoding in enumerate(encodings):
             self.__writeRow(encodingIndex+1, encoding)
 
-        self.__workBook.save(self.__path)
+        self.__workBook.close()

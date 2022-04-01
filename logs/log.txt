@@ -77,3 +77,422 @@
 2022-04-01 00:38:29 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\a.jpg, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.pdf
 2022-04-01 00:38:29 INFO     ExcelOut initialised
 2022-04-01 00:38:29 INFO     main function called
+2022-04-01 09:34:57 INFO     Argument parser initialized.
+2022-04-01 09:34:57 INFO     Initializing App
+2022-04-01 09:34:57 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\a.jpg, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.pdf
+2022-04-01 09:34:57 INFO     ExcelOut initialised
+2022-04-01 09:35:22 INFO     Argument parser initialized.
+2022-04-01 09:35:22 INFO     Initializing App
+2022-04-01 09:35:22 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.pdf
+2022-04-01 09:35:22 INFO     ExcelOut initialised
+2022-04-01 09:35:22 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 09:35:22 INFO     parseFiles called
+2022-04-01 09:35:41 INFO     Argument parser initialized.
+2022-04-01 09:35:41 INFO     Initializing App
+2022-04-01 09:35:42 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xlsx
+2022-04-01 09:35:42 INFO     ExcelOut initialised
+2022-04-01 09:35:42 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 09:35:42 INFO     parseFiles called
+2022-04-01 09:36:13 INFO     Argument parser initialized.
+2022-04-01 09:36:13 INFO     Initializing App
+2022-04-01 09:36:13 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 09:36:13 INFO     ExcelOut initialised
+2022-04-01 09:36:13 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 09:36:13 INFO     parseFiles called
+2022-04-01 09:49:38 INFO     Argument parser initialized.
+2022-04-01 09:49:38 INFO     Initializing App
+2022-04-01 09:49:38 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 09:49:38 INFO     ExcelOut initialised
+2022-04-01 09:49:38 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 09:49:38 INFO     parseFiles called
+2022-04-01 09:49:38 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\a.jpg, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg'
+2022-04-01 09:49:38 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\b.png, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png'
+2022-04-01 09:49:38 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\c.jpg, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg'
+2022-04-01 09:49:38 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\d.jpeg, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg'
+2022-04-01 09:50:01 INFO     Argument parser initialized.
+2022-04-01 09:50:01 INFO     Initializing App
+2022-04-01 09:50:01 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 09:50:01 INFO     ExcelOut initialised
+2022-04-01 09:50:01 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg']
+2022-04-01 09:50:01 INFO     parseFiles called
+2022-04-01 09:50:01 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\a.jpg, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\a.jpg'
+2022-04-01 09:50:01 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\b.png, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\b.png'
+2022-04-01 09:50:01 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\c.jpg, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\c.jpg'
+2022-04-01 09:50:01 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\d.jpeg, Error was cannot identify image file 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\d.jpeg'
+2022-04-01 09:58:25 INFO     Argument parser initialized.
+2022-04-01 09:58:25 INFO     Initializing App
+2022-04-01 09:58:25 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 09:58:25 INFO     ExcelOut initialised
+2022-04-01 09:58:25 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 09:58:25 INFO     parseFiles called
+2022-04-01 09:58:25 ERROR    Error while parsing file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg, Error was tesseract is not installed or it's not in your PATH. See README file for more information.
+2022-04-01 10:08:20 INFO     Argument parser initialized.
+2022-04-01 10:08:20 INFO     Initializing App
+2022-04-01 10:08:20 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:08:20 INFO     ExcelOut initialised
+2022-04-01 10:08:20 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:08:20 INFO     parseFiles called
+2022-04-01 10:10:14 INFO     Argument parser initialized.
+2022-04-01 10:10:14 INFO     Initializing App
+2022-04-01 10:10:14 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:10:14 INFO     ExcelOut initialised
+2022-04-01 10:10:14 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:10:14 INFO     parseFiles called
+2022-04-01 10:10:26 INFO     Argument parser initialized.
+2022-04-01 10:10:26 INFO     Initializing App
+2022-04-01 10:10:26 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:10:26 INFO     ExcelOut initialised
+2022-04-01 10:10:26 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:10:26 INFO     parseFiles called
+2022-04-01 10:10:53 INFO     Argument parser initialized.
+2022-04-01 10:10:53 INFO     Initializing App
+2022-04-01 10:10:53 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:10:53 INFO     ExcelOut initialised
+2022-04-01 10:10:53 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:10:53 INFO     parseFiles called
+2022-04-01 10:13:28 INFO     Argument parser initialized.
+2022-04-01 10:13:28 INFO     Initializing App
+2022-04-01 10:13:28 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te
+2022-04-01 10:13:28 INFO     ExcelOut initialised
+2022-04-01 10:13:28 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:13:28 INFO     parseFiles called
+2022-04-01 10:13:39 INFO     Argument parser initialized.
+2022-04-01 10:13:39 INFO     Initializing App
+2022-04-01 10:13:39 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te
+2022-04-01 10:13:39 INFO     ExcelOut initialised
+2022-04-01 10:13:39 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:13:39 INFO     parseFiles called
+2022-04-01 10:13:44 INFO     Argument parser initialized.
+2022-04-01 10:13:44 INFO     Initializing App
+2022-04-01 10:13:44 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\
+2022-04-01 10:13:44 INFO     ExcelOut initialised
+2022-04-01 10:13:44 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:13:44 INFO     parseFiles called
+2022-04-01 10:14:09 INFO     Argument parser initialized.
+2022-04-01 10:14:09 INFO     Initializing App
+2022-04-01 10:14:09 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\
+2022-04-01 10:14:09 INFO     ExcelOut initialised
+2022-04-01 10:14:09 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:14:09 INFO     parseFiles called
+2022-04-01 10:14:10 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:15:16 INFO     Argument parser initialized.
+2022-04-01 10:15:16 INFO     Initializing App
+2022-04-01 10:15:16 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\
+2022-04-01 10:15:16 INFO     ExcelOut initialised
+2022-04-01 10:15:16 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:15:16 INFO     parseFiles called
+2022-04-01 10:15:17 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:15:17 ERROR    Error while saving file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\, Error was [Errno 22] Invalid argument: 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\te\\'
+2022-04-01 10:17:45 INFO     Argument parser initialized.
+2022-04-01 10:17:45 INFO     Initializing App
+2022-04-01 10:17:45 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\
+2022-04-01 10:17:45 INFO     ExcelOut initialised
+2022-04-01 10:17:45 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:17:45 INFO     parseFiles called
+2022-04-01 10:17:46 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:17:46 ERROR    Error while saving file: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\, Error was [Errno 22] Invalid argument: 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\te\\'
+2022-04-01 10:18:18 INFO     Argument parser initialized.
+2022-04-01 10:18:18 INFO     Initializing App
+2022-04-01 10:18:18 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resoes, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\
+2022-04-01 10:18:18 INFO     ExcelOut initialised
+2022-04-01 10:19:17 INFO     Argument parser initialized.
+2022-04-01 10:19:17 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\te\\'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resoes'], type='IMAGE')
+2022-04-01 10:19:17 INFO     Initializing App
+2022-04-01 10:19:17 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resoes, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\te\
+2022-04-01 10:19:17 INFO     ExcelOut initialised
+2022-04-01 10:20:55 INFO     Argument parser initialized.
+2022-04-01 10:20:55 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xls'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:20:55 INFO     Initializing App
+2022-04-01 10:20:55 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:20:55 INFO     ExcelOut initialised
+2022-04-01 10:20:55 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:20:55 INFO     parseFiles called
+2022-04-01 10:20:56 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:28:00 INFO     Argument parser initialized.
+2022-04-01 10:28:00 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xls'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:28:00 INFO     Initializing App
+2022-04-01 10:28:00 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:28:00 INFO     ExcelOut initialised
+2022-04-01 10:28:00 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:28:00 INFO     parseFiles called
+2022-04-01 10:28:01 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:28:35 INFO     Argument parser initialized.
+2022-04-01 10:28:35 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xls'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:28:35 INFO     Initializing App
+2022-04-01 10:28:35 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xls
+2022-04-01 10:28:35 INFO     ExcelOut initialised
+2022-04-01 10:28:35 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:28:35 INFO     parseFiles called
+2022-04-01 10:28:36 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:29:29 INFO     Argument parser initialized.
+2022-04-01 10:29:29 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xlsx'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:29:29 INFO     Initializing App
+2022-04-01 10:29:29 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xlsx
+2022-04-01 10:29:29 INFO     ExcelOut initialised
+2022-04-01 10:29:29 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:29:29 INFO     parseFiles called
+2022-04-01 10:29:29 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:29:45 INFO     Argument parser initialized.
+2022-04-01 10:29:45 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.csv'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:29:45 INFO     Initializing App
+2022-04-01 10:29:45 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.csv
+2022-04-01 10:29:45 INFO     ExcelOut initialised
+2022-04-01 10:29:45 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:29:45 INFO     parseFiles called
+2022-04-01 10:29:46 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:35:22 INFO     Argument parser initialized.
+2022-04-01 10:35:22 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xlsx'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:35:22 INFO     Initializing App
+2022-04-01 10:35:22 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xlsx
+2022-04-01 10:35:22 INFO     ExcelOut initialised
+2022-04-01 10:35:22 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:35:22 INFO     parseFiles called
+2022-04-01 10:35:24 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
+2022-04-01 10:37:08 INFO     Argument parser initialized.
+2022-04-01 10:37:08 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xlsx'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'], type='IMAGE')
+2022-04-01 10:37:08 INFO     Initializing App
+2022-04-01 10:37:08 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xlsx
+2022-04-01 10:37:08 INFO     ExcelOut initialised
+2022-04-01 10:37:08 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg']
+2022-04-01 10:37:08 INFO     parseFiles called
+2022-04-01 10:37:09 INFO     File C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\WhatsApp Image 2022-04-01 at 9.57.52 AM.jpeg has encoding: Clean Code
+
+A Handbook of Agile
+Software Craftsmanship
+
+‘The Object Mentors:
+Robert C. Martin
+Michaol Fathers Tot R. Otinger
+“strey J Langr Bret Senuchert
+James W Granning Kova Dean Wampor
+‘Gojoe Mentor ie
+
+what yo mast do onder to cal yout a pofessona
+ing anyehing ese than your bet,
+
+Pars Mads
+
+*Iadanap
+London Mani
+
+Bg tresses =
+New Yor + Toon + Mon
+pmgynice Capetown Syaey
+
+
