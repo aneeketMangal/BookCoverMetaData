@@ -12,16 +12,17 @@ class ExcelOut(Out):
         try:
             self.__workBook = Workbook(filePath)
         except Exception as e:
-            logging.error(f"Error while creating file: {filePath}, Error was {e}")
             raise CannotWriteOutputException(e, filePath)
             
         self.__sheet = self.__workBook.add_worksheet('Metadata')
         self.__writeRow(0, ['FilePath', 'ISBN', 'Title', 'Author', 'Publisher'])
 
     def __writeRow(self, row, rowContent):
-        for column, cellContent in enumerate(rowContent):
-            self.__sheet.write(row, column, cellContent)         
-    
+        try:
+            for column, cellContent in enumerate(rowContent):
+                self.__sheet.write(row, column, cellContent)         
+        except Exception as e:
+            raise CannotWriteOutputException(e, self.__path)
 
     def write(self, encodings):
         for encodingIndex, encoding in enumerate(encodings):

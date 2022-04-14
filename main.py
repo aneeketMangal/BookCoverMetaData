@@ -32,13 +32,13 @@ def initializeArgParser():
         help = "Path of output file"
     )
 
-    ArgParser.add_argument(
-        "-type", "-t",
-        default="IMAGE",
-        nargs = 1,
-        type = str,
-        help = "File type of book cover(s)"
-    )     
+    # ArgParser.add_argument(
+    #     "-type", "-t",
+    #     default="IMAGE",
+    #     nargs = 1,
+    #     type = str,
+    #     help = "File type of book cover(s)"
+    # )     
 
     ArgParser.add_argument(
         "-directory", "-d",
@@ -51,12 +51,12 @@ def initializeArgParser():
 
 
 if __name__  == "__main__":
-    sys.tracebacklimit = 0
+    print("Processing......")
+    # sys.tracebacklimit = 0
     initializeArgParser()
     args = ArgParser.parse_args()
     logging.info(f"Arguments parsed: {args}")
-    print("Processing...")
-    App = App(args.directory, args.path[0], args.type, args.out[0])
+    App = App(args.directory, args.path[0], "IMAGE", args.out[0])
     res = App.getMetaData()
     if(res == 1):
         print("Done!, Check the output file.")

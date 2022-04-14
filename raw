@@ -1,0 +1,41 @@
+            
+
+
+
+
+            # text = pytesseract.image_to_string(
+            #     Image.open(filePath),
+            # )
+
+            # data = pytesseract.image_to_data(
+            #     Image.open(filePath),
+            # )
+            # blocks = pytesseract.image_to_boxes(
+            #     Image.open(filePath),
+            # )
+            # logging.info(f"data: {str(data)}")
+            # logging.info(f"blocks: {blocks}")
+            
+            # logging.info(f"File {filePath} has encoding: {text}")
+            # # xml = pytesseract.image_to_alto_xml(filePath)
+            # # print(xml)
+            # return text
+
+
+    # Utility function to get the encoding of an image file
+    def __getFileEncoding(self, filePath):
+        try:
+            rawFileEncoding = self.reader.readtext(filePath)
+            logging.debug(f"rawFileEncoding: {rawFileEncoding}")
+            fileEncoding = []
+            for encoding in rawFileEncoding:
+                boxDimenssions = encoding[0]
+                text = encoding[1]
+                textWidth =  boxDimenssions[2][1] - boxDimenssions[1][1]
+                fileEncoding.append(FileEncodingItem(text, textWidth))
+            return fileEncoding
+
+        except Exception as e:
+            logging.error(
+                f"Error while parsing file: {filePath}, Error was {e}")
+            return []
