@@ -3,22 +3,21 @@ import os
 from src.parse.ImageParser.FetchMetadata import FetchMetadata
 from src.parse.ImageParser.FileEncoding import FileEncoding
 from src.parse.Parser import Parser
-import pytesseract
-from PIL import Image
 import spacy
-
 import easyocr
 
 NA = "Not found"
 
-
+"""
+    Concrete implementation of parser class for image files.
+    This class is responsible for parsing the image files and extracting metadata.
+"""
 class ImageParser(Parser):
 
     def __init__(self):
         super().__init__()
-        pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tessaract\\tesseract.exe'
-        self.tokenizer = spacy.load("en_core_web_sm", disable=["tok2vec", "tagger", "parser", "attribute_ruler", "lemmatizer"])
-        self.reader = easyocr.Reader(['en'])
+        self.reader = easyocr.Reader(['en'])  # OCR utility
+        self.tokenizer = spacy.load("en_core_web_trf") # NLP utility function to tokenize a string
 
     """ 
         Main function to return all extracted metadata from a set of image files.
@@ -34,41 +33,17 @@ class ImageParser(Parser):
         return output
 
 
-    def __getImageObject(self, filePath:str):
-        try:
-            img = Image.open(filePath)
-            return img
-        except Exception as e:
-            logging.error(
-                f"Error while parsing file: {filePath}, Error was {e}")
-            return None
+    """
+        This function helps to extract file encoding from the image file.
+        The encoding is of type FileEncoding.
+    """
 
-    def __getFileEncoding(self, filePath: str):
-        try:
-            fileEncoding = FileEncoding()
-            rawFileEncoding = pytesseract.image_to_data(self.__getImageObject(filePath), output_type=pytesseract.Output.DICT)
-            
-            logging.debug(f"\nfile: {os.path.basename(filePath)}\nrawFileEncoding: {rawFileEncoding['text']}\nheight: {rawFileEncoding['height']}\n")
-            for i in range(len(rawFileEncoding['text'])):
-                if(rawFileEncoding['text'][i].strip() != ""):
-                    fileEncoding.addEncodingItem(rawFileEncoding['text'][i].strip(), rawFileEncoding['height'][i])
-                    fileEncoding.addText(rawFileEncoding['text'][i].strip())
-            # return fileEncoding
-            fileEncoding.tokenize(self.tokenizer)
-            return fileEncoding
-        except Exception as e:
-            return FileEncoding()
-
-    def __getFileEncodingTe(self, filePath):
+    def __getFileEncoding(self, filePath):
         try:
             fileEncoding = FileEncoding()
             rawFileEncoding = self.reader.readtext(filePath)
-            logging.debug(f"\nfile: {os.path.basename(filePath)}\nrawFileEncoding: {rawFileEncoding['text']}\nheight: {rawFileEncoding['height']}\n")
-            for i in range(len(rawFileEncoding['text'])):
-                if(rawFileEncoding['text'][i].strip() != ""):
-                    fileEncoding.addEncodingItem(rawFileEncoding['text'][i].strip(), rawFileEncoding['height'][i])
-                    fileEncoding.addText(rawFileEncoding['text'][i].strip())
-            # return fileEncoding
+            logging.debug(f"raw FIle encoding: {rawFileEncoding}")
+            logging.debug(f"\nfile: {os.path.basename(filePath)}\nrawFileEncoding: {rawFileEncoding}")
             for encoding in rawFileEncoding:
                 boxDimenssions = encoding[0]
                 text = encoding[1]
@@ -85,10 +60,14 @@ class ImageParser(Parser):
     # Utility function to parse a single file and get the ISBN, Title, Author, Publisher
     def __parseFile(self, filePath):
         logging.debug(f"parseFile called, filePath: {filePath}")
-        fileEncoding = self.__getFileEncodingTe(filePath)
+        fileEncoding = self.__getFileEncoding(filePath)
         title = FetchMetadata.getTitle(fileEncoding)
         isbn = FetchMetadata.getISBN(fileEncoding)
         author = FetchMetadata.getAuthor(fileEncoding)
         publisher = FetchMetadata.getPublisher(fileEncoding)
+        logging.debug(f"Title: {title}, ISBN: {isbn}, Author: {author}, Publisher: {publisher}")
         logging.debug(f"fileEncoding: {fileEncoding}")
-        return [filePath, isbn, title, author, publisher]
+        print("------------------File Processed-------------------")
+        print(f"File: {os.path.basename(filePath)}\nTitle: {title}\nISBN: {isbn}\nAuthor: {author}\nPublisher: {publisher}")
+        
+        return [os.path.basename(filePath), title, isbn, author, publisher, filePath]

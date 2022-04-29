@@ -1,6 +1,7 @@
 import os
 from src.exception.NoSuchDirectoryException import NoSuchDirectoryException
 from src.exception.NoSuchFileException import NoSuchFileException
+from src.exception.FileTypeNotSupportedException import FileTypeNotSupportedException
 from src.parse.ImageParser.ImageParser import ImageParser
 from src.const.FileFormats import FileFormats
 from src.out.ExcelOut import ExcelOut
@@ -9,6 +10,7 @@ class App():
     def __init__(self, directory, path, fileType, outFilePath):
         logging.info("Initializing App")
         logging.info(f"isDirectory: {directory}, path:{path}, fileType: {fileType}, outFilePath: {outFilePath}")
+        self.__isFileType(fileType)
         self.__fileFormats = self.__getFileFormats(fileType)
         self.__parser = self.__getParser(fileType)
         self.__outFile = ExcelOut(outFilePath)
@@ -37,6 +39,10 @@ class App():
     def __isFile(self, path):
         if(not os.path.isfile(path)):
             raise NoSuchFileException(path)
+
+    def __isFileType(self, fileType):
+        if(fileType not in FileFormats):
+            raise FileTypeNotSupportedException(fileType)
 
     def __getFileFormats(self, fileType):
         return FileFormats[fileType]

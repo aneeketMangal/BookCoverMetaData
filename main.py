@@ -1,8 +1,10 @@
 
 import argparse
+import warnings
 from src.app import App
 import logging
 import sys
+import os
 ArgParser = None
 logging.basicConfig(
     filename= "logs/logs.log",
@@ -26,19 +28,20 @@ def initializeArgParser():
 
     ArgParser.add_argument(
         "-out", "-o",
-        required=True,
-        nargs = "*",
+        # required=True,
+        default = ["results/output.xlsx"],
+        nargs = 1,
         type = str,
         help = "Path of output file"
     )
 
-    # ArgParser.add_argument(
-    #     "-type", "-t",
-    #     default="IMAGE",
-    #     nargs = 1,
-    #     type = str,
-    #     help = "File type of book cover(s)"
-    # )     
+    ArgParser.add_argument(
+        "-type", "-t",
+        default="IMAGE",
+        nargs = 1,
+        type = str,
+        help = "File type of book cover(s)"
+    )     
 
     ArgParser.add_argument(
         "-directory", "-d",
@@ -51,12 +54,13 @@ def initializeArgParser():
 
 
 if __name__  == "__main__":
+    warnings.filterwarnings("ignore")
     print("Processing......")
-    # sys.tracebacklimit = 0
+    sys.tracebacklimit = 0
     initializeArgParser()
     args = ArgParser.parse_args()
     logging.info(f"Arguments parsed: {args}")
-    App = App(args.directory, args.path[0], "IMAGE", args.out[0])
+    App = App(args.directory, args.path[0], args.type, args.out[0])
     res = App.getMetaData()
     if(res == 1):
         print("Done!, Check the output file.")

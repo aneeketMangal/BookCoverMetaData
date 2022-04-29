@@ -1,86 +1,19 @@
-2022-04-14 18:55:54 INFO     Argument parser initialized.
-2022-04-14 18:55:54 INFO     Arguments parsed: Namespace(directory=True, out=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\ou.xlsx'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources'])
-2022-04-14 18:55:54 INFO     Initializing App
-2022-04-14 18:55:54 INFO     isDirectory: True, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources, fileType: IMAGE, outFilePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\ou.xlsx
-2022-04-14 18:55:56 WARNING  CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
-2022-04-14 18:56:05 INFO     ExcelOut initialised
-2022-04-14 18:56:05 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_1.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_2.jpeg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_3.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_4.jpeg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_5.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_6.jpg']
-2022-04-14 18:56:05 INFO     parseFiles called
-2022-04-14 18:56:05 DEBUG    parseFiles called, files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_1.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_2.jpeg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_3.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_4.jpeg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_5.jpg', 'C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\test\\resources\\test_6.jpg']
-2022-04-14 18:56:05 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\test_1.jpg
-2022-04-14 18:56:06 DEBUG    Importing BlpImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing BmpImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing BufrStubImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing CurImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing DcxImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing DdsImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing EpsImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing FitsStubImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing FliImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing FpxImagePlugin
-2022-04-14 18:56:06 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
-2022-04-14 18:56:06 DEBUG    Importing FtexImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing GbrImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing GifImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing GribStubImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing Hdf5StubImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing IcnsImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing IcoImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing ImImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing ImtImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing IptcImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing JpegImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing Jpeg2KImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing McIdasImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing MicImagePlugin
-2022-04-14 18:56:06 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
-2022-04-14 18:56:06 DEBUG    Importing MpegImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing MpoImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing MspImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PalmImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PcdImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PcxImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PdfImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PixarImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PngImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PpmImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing PsdImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing SgiImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing SpiderImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing SunImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing TgaImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing TiffImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing WebPImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing WmfImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing XbmImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing XpmImagePlugin
-2022-04-14 18:56:06 DEBUG    Importing XVThumbImagePlugin
-2022-04-14 18:56:06 DEBUG    maxVal: 1000000000.0
-2022-04-14 18:56:06 DEBUG    fileEncoding.getEncoding(): []
-2022-04-14 18:56:06 DEBUG    filetokens: []
-2022-04-14 18:56:06 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x000002090A770490>
-2022-04-14 18:56:06 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\test_2.jpeg
-2022-04-14 18:56:09 DEBUG    maxVal: 1000000000.0
-2022-04-14 18:56:09 DEBUG    fileEncoding.getEncoding(): []
-2022-04-14 18:56:09 DEBUG    filetokens: []
-2022-04-14 18:56:09 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x000002090E558BB0>
-2022-04-14 18:56:09 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\test_3.jpg
-2022-04-14 18:56:13 DEBUG    maxVal: 1000000000.0
-2022-04-14 18:56:13 DEBUG    fileEncoding.getEncoding(): []
-2022-04-14 18:56:13 DEBUG    filetokens: []
-2022-04-14 18:56:13 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x000002090A781700>
-2022-04-14 18:56:13 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\test_4.jpeg
-2022-04-14 18:56:16 DEBUG    maxVal: 1000000000.0
-2022-04-14 18:56:16 DEBUG    fileEncoding.getEncoding(): []
-2022-04-14 18:56:16 DEBUG    filetokens: []
-2022-04-14 18:56:16 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x000002090A781730>
-2022-04-14 18:56:16 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\test_5.jpg
-2022-04-14 18:56:17 DEBUG    maxVal: 1000000000.0
-2022-04-14 18:56:17 DEBUG    fileEncoding.getEncoding(): []
-2022-04-14 18:56:17 DEBUG    filetokens: []
-2022-04-14 18:56:17 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x000002090A781700>
-2022-04-14 18:56:17 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\test\resources\test_6.jpg
-2022-04-14 18:56:22 DEBUG    maxVal: 1000000000.0
-2022-04-14 18:56:22 DEBUG    fileEncoding.getEncoding(): []
-2022-04-14 18:56:22 DEBUG    filetokens: []
-2022-04-14 18:56:22 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x000002090E5A5DC0>
+2022-04-17 11:30:13 INFO     Argument parser initialized.
+2022-04-17 11:30:13 INFO     Arguments parsed: Namespace(directory=False, out=['results\\one.xlsx'], path=['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\1.jpeg'], type='IMAGE')
+2022-04-17 11:30:13 INFO     Initializing App
+2022-04-17 11:30:13 INFO     isDirectory: False, path:C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\1.jpeg, fileType: IMAGE, outFilePath: results\one.xlsx
+2022-04-17 11:30:13 WARNING  CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+2022-04-17 11:30:22 INFO     ExcelOut initialised
+2022-04-17 11:30:22 INFO     Files recieved: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\1.jpeg']
+2022-04-17 11:30:22 INFO     parseFiles called
+2022-04-17 11:30:22 DEBUG    parseFiles called, files: ['C:\\Users\\lenovo\\Desktop\\Adhoora\\academics\\year3\\cs305\\assignment3\\1.jpeg']
+2022-04-17 11:30:22 DEBUG    parseFile called, filePath: C:\Users\lenovo\Desktop\Adhoora\academics\year3\cs305\assignment3\1.jpeg
+2022-04-17 11:30:26 DEBUG    raw FIle encoding: [([[224, 274], [359, 274], [359, 340], [224, 340]], 'THE', 0.9999487939921813), ([[107, 333], [475, 333], [475, 397], [107, 397]], 'DREAMING', 0.9999644277977858), ([[213, 391], [379, 391], [379, 455], [213, 455]], 'ARTS', 0.9998359680175781), ([[106, 470], [210, 470], [210, 500], [106, 500]], 'T 0 M', 0.7489355020270085), ([[240, 470], [478, 470], [478, 502], [240, 502]], 'M A L 0 N E Y', 0.7278133003489253), ([[25, 857], [197, 857], [197, 877], [25, 877]], 'ISBN1O: 1366446267', 0.7024786977020555), ([[25, 881], [227, 881], [227, 901], [25, 901]], 'ISBN13: 9781366446268', 0.9975268470445382), ([[30, 931], [248, 931], [248, 958], [30, 958]], 'Publisher Blurb Company', 0.8705813914913884), ([[26, 978], [496, 978], [496, 1008], [26, 1008]], 'The Dreaming Arts will show you how to use your sleep', 0.8780238575591336), ([[26, 1006], [425, 1006], [425, 1030], [26, 1030]], 'and dreams as a vehicle for personal evolution_', 0.6561102163330704)]
+2022-04-17 11:30:26 DEBUG    
+file: 1.jpeg
+rawFileEncoding: [([[224, 274], [359, 274], [359, 340], [224, 340]], 'THE', 0.9999487939921813), ([[107, 333], [475, 333], [475, 397], [107, 397]], 'DREAMING', 0.9999644277977858), ([[213, 391], [379, 391], [379, 455], [213, 455]], 'ARTS', 0.9998359680175781), ([[106, 470], [210, 470], [210, 500], [106, 500]], 'T 0 M', 0.7489355020270085), ([[240, 470], [478, 470], [478, 502], [240, 502]], 'M A L 0 N E Y', 0.7278133003489253), ([[25, 857], [197, 857], [197, 877], [25, 877]], 'ISBN1O: 1366446267', 0.7024786977020555), ([[25, 881], [227, 881], [227, 901], [25, 901]], 'ISBN13: 9781366446268', 0.9975268470445382), ([[30, 931], [248, 931], [248, 958], [30, 958]], 'Publisher Blurb Company', 0.8705813914913884), ([[26, 978], [496, 978], [496, 1008], [26, 1008]], 'The Dreaming Arts will show you how to use your sleep', 0.8780238575591336), ([[26, 1006], [425, 1006], [425, 1030], [26, 1030]], 'and dreams as a vehicle for personal evolution_', 0.6561102163330704)]
+2022-04-17 11:30:26 DEBUG    maxVal: 66
+2022-04-17 11:30:26 DEBUG    fileEncoding.getEncoding(): [('THE', 66), ('DREAMING', 64), ('ARTS', 64), ('T 0 M', 30), ('M A L 0 N E Y', 32), ('ISBN1O: 1366446267', 20), ('ISBN13: 9781366446268', 20), ('Publisher Blurb Company', 27), ('The Dreaming Arts will show you how to use your sleep', 30), ('and dreams as a vehicle for personal evolution_', 24)]
+2022-04-17 11:30:26 DEBUG    filetokens: []
+2022-04-17 11:30:26 DEBUG    Title: THE DREAMING ARTS, ISBN: Not found, Author: Not found, Publisher: Not found
+2022-04-17 11:30:26 DEBUG    fileEncoding: <src.parse.ImageParser.FileEncoding.FileEncoding object at 0x0000019FA3DE9760>
